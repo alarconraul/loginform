@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+
+<body>
+    <div>
+        <div class="background">
+            <div class="shape"></div>
+            <div class="shape"></div>
+        </div>
+        <form onsubmit="return submitInfo();">
+            <h3>Formulario</h3>
+            <input type="text" id="firstName" name="firstName" placeholder="Nombre">
+            <input type="text" id="lastName" name="lastName" placeholder="Apellido">
+            <input type="email" id="email" name="email" placeholder="Correo electrónico">
+            <input type="text" id="username" name="username" placeholder="Usuario">
+            <input type="password" id="userPassword" name="userPassword" placeholder="Contraseña">
+            <button>Registrar</button>
+        </form>
+    </div>
+    <script type="text/javascript" src="assets/js/validar.js"></script>
+</body>
+
+</html>
